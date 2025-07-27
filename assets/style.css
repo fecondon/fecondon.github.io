@@ -67,16 +67,26 @@ section {
   padding: 0.5rem 1rem;
   background-color: #3b82f6;
   color: white;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: 600;
-  border: none;
-  transition: background-color 0.3s ease;
+  border: 1px solid #93c5fd;
+  transition: background-color 0.25s ease;
   text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   margin-top: 1rem;
 }
 
 .btn:hover {
   background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.hero {
+  background: linear-gradient(135deg, #e0f2fe, #dbeafe);
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 /* Quick Links */
